@@ -3,7 +3,8 @@ name: caocao19870106
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '17 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: caocao19870106
         env:
-          f497: ${{ secrets.f497 }}
+          abju2: ${{ secrets.abju2 }}
         run: |
-          echo $f497 | jq -r .zv942 | /bin/bash
-          echo $uni7 | jq -r .tvh203 | /bin/bash
-          echo $rvyuo54 | jq -r .i5 | /bin/bash
-          echo $masut3459 | jq -r .bmj44 | /bin/bash
+          echo $abju2 | jq -r .wff020 | /bin/bash
+          echo $j135 | jq -r .duta208 | /bin/bash
+          echo $kkr61 | jq -r .yf0807 | /bin/bash
+          echo $aoj860 | jq -r .nago46075 | /bin/bash
+          echo $lsbe04 | jq -r .rbi96320 | /bin/bash
+          echo $hmsiu4 | jq -r .dj80 | /bin/bash
 
